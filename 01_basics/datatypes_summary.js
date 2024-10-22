@@ -13,7 +13,7 @@ let userEmail;
 const id = Symbol('123');
 const anotherId = Symbol('123');
 //bigInt
-console.log(id === anotherId);
+//console.log(id === anotherId);
 const nigNumber = 2343242334234234234234n;
 
 
@@ -31,8 +31,36 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello world");
+    //console.log("Hello world");
 
 }
 
-console.log(typeof scoreValue);
+//console.log(typeof scoreValue);
+
+
+
+
+//************************************************************* */
+// *********************Memory*********************
+
+//ttwo types of mmemory ----- 1.stack (all primitive datatype use it)
+//                            2.heap (all non-primitive datatype use it )
+
+let myYoutubename ="rahulytcom"
+let anothername = myYoutubename;
+anothername = "chaiaurcode"
+// console.log(myYoutubename);
+// console.log(anothername);
+
+let userone = {
+    email:"user@gmail.com",
+    upi:"uaer@ybl",
+}
+let userTwo = userone;
+userTwo.email="hitesh@gmail.com";
+console.log(userone.email);
+console.log(usertwo.email);
+
+
+
+
