@@ -56,13 +56,27 @@ let str3= str1 + str2;
 //console.log(str3);//op is hello Rahul
 
 //complex situation
-console.log(1+"2");//12
-console.log("1"+2);//12
-console.log("1"+2+2)//122
-console.log(1+2+"3");//33
+// console.log(1+"2");//12
+// console.log("1"+2);//12
+// console.log("1"+2+2)//122
+// console.log(1+2+"3");//33
 
 //the write way to code a operations
-console.log((3+4)*5%3);//2
+// console.log((3+4)*5%3);//2
+
+
+//boolean operations
+// console.log(+true);//op 1
+// console.log(true+);//error
+//  console.log(+"");//op is 0
+
+
+
+console.log(NULL>0);//false
+console.log(NULL==0);//false
+console.log(NULL>=0);//true
+/* Here the reason is that an equality check == and comparisons > < >= <= work differently
+Compsrisons convert null to a number , treating it as 0. That's why null>=0 (true) and null>0(false)*/
 
 
 
