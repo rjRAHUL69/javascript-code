@@ -35,7 +35,11 @@ console.log(newStringOne.trim());//op is rahul
 
 
 //replace( )
+const url = "https://hittesh.com/hitesh%20choudhary";
+console.log(url.replace('%20','-'));
 
-
-
+//you can ask any thing
+console.log(url.includes('hitesh'));//op is true
+console.log(url.includes('Rahul'));// oop is false
+ 
 
